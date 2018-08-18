@@ -1,11 +1,11 @@
 package udea.facturacion.inventario.modelo;
 
-public class DtoInv {
+public class DtoInventario {
 
     private String  articulo;
     private Integer cantidad;
 
-    public DtoInv(String articulo, Integer cantidad) {
+    public DtoInventario(String articulo, Integer cantidad) {
         this.articulo = articulo;
         this.cantidad = cantidad;
     }
