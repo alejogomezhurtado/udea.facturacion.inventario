@@ -26,4 +26,11 @@ public class DtoInventario {
         this.cantidad = cantidad;
     }
 
+    @Override
+    public String toString() {
+        return "DtoInventario{" +
+                "articulo='" + articulo + '\'' +
+                ", cantidad=" + cantidad +
+                '}';
+    }
 }
